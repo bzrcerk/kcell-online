@@ -1,28 +1,18 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 
 from apps.cart.models import Cart, CartItem
 from .serializers import CartSerializer, CartItemSerializer
 
 
 # Create your views here.
+
+
 class CartAPIView(viewsets.ModelViewSet):
+    queryset = Cart.objects.all()
     serializer_class = CartSerializer
-    permission_classes = (IsAuthenticated,)
-
-    def get_queryset(self):
-        return Cart.objects.filter(user=self.request.user)
-
-    def perform_create(self, serializer):
-        serializer.save(user=self.request.user)
 
 class CartItemAPIView(viewsets.ModelViewSet):
+    queryset = CartItem.objects.all()
     serializer_class = CartItemSerializer
-    permission_classes = (IsAuthenticated,)
-
-    def get_queryset(self):
-        return CartItem.objects.filter(user=self.request.user)
-
-    def perform_create(self, serializer):
-        serializer.save(user=self.request.user)

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23a46d0b-7d7d-41fa-beed-69b783f08a9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/apps/products/storefront_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/apps/products/storefront_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/apps/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/apps/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000002" />
+      <entry key="MS500" value="1.0006714790497364" />
+      <entry key="S2" value="1.2051641058334808" />
+      <entry key="S5" value="1.9518267059520897" />
+      <entry key="S10" value="3.120151680312076" />
+      <entry key="S30" value="8.082806217633188" />
+      <entry key="S60" value="14.914243933116701" />
+      <entry key="M2" value="24.797865652247708" />
+      <entry key="M5" value="37.88027959604742" />
+      <entry key="M10" value="44.84247671901947" />
+      <entry key="M15" value="47.65963102108786" />
+      <entry key="M30" value="51.40045685285194" />
+      <entry key="H1" value="55.15100538518195" />
+      <entry key="H2" value="58.743804949046954" />
+      <entry key="H4" value="61.41903993202344" />
+      <entry key="D1" value="64.32642986420962" />
+      <entry key="W1" value="64.90168387334049" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="7.241253399446802E-247" />
+      <entry key="MS500" value="5.915108960885545E-50" />
+      <entry key="S2" value="4.93864727908442E-13" />
+      <entry key="S5" value="1.330229756761887E-5" />
+      <entry key="S10" value="0.005342147877420423" />
+      <entry key="S30" value="0.4967565504931244" />
+      <entry key="S60" value="2.052338828613493" />
+      <entry key="M2" value="4.683009411452399" />
+      <entry key="M5" value="8.46569277926217" />
+      <entry key="M10" value="10.714009476235246" />
+      <entry key="M15" value="11.666099378309033" />
+      <entry key="M30" value="12.752527105626038" />
+      <entry key="H1" value="13.354238204208924" />
+      <entry key="H2" value="13.671353743629528" />
+      <entry key="H4" value="13.834201652115201" />
+      <entry key="D1" value="13.972159101913986" />
+      <entry key="W1" value="13.996017599934376" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9138314502294007" />
+      <entry key="MS500" value="0.9827999894344521" />
+      <entry key="S2" value="1.1997366542824657" />
+      <entry key="S5" value="1.9458227264009855" />
+      <entry key="S10" value="3.113255030552809" />
+      <entry key="S30" value="8.542416392784466" />
+      <entry key="S60" value="16.905022025780774" />
+      <entry key="M2" value="29.410181325672895" />
+      <entry key="M5" value="46.294116797241976" />
+      <entry key="M10" value="55.523943544338174" />
+      <entry key="M15" value="59.30224098927589" />
+      <entry key="M30" value="64.14022165047233" />
+      <entry key="H1" value="68.49856121085975" />
+      <entry key="H2" value="72.41172778852118" />
+      <entry key="H4" value="75.25150046375182" />
+      <entry key="D1" value="78.29829482111172" />
+      <entry key="W1" value="78.89765934941943" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3EcFBcYyJExaZbubcWCIcEu6CGZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/bzrcerk/.nvm/versions/node/v26.3.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/bzrcerk/Desktop/Work/Projects/kcell-online-store/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23a46d0b-7d7d-41fa-beed-69b783f08a9f" name="Changes" comment="" />
+      <created>1780469816438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780469816438</updated>
+      <workItem from="1780469817470" duration="7472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
