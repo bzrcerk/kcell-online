@@ -40,11 +40,22 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'rest_framework',
+    'rest_framework_simplejwt',
 
     'apps.cart.apps.CartConfig',
     'apps.orders.apps.OrdersConfig',
     'apps.products.apps.ProductsConfig',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
