@@ -37,9 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts.apps.AccountsConfig',
+
     'corsheaders',
-    'rest_framework'
+    'rest_framework',
+
+    'apps.cart.apps.CartConfig',
+    'apps.orders.apps.OrdersConfig',
+    'apps.products.apps.ProductsConfig',
 ]
 
 MIDDLEWARE = [
@@ -99,6 +103,9 @@ DATABASES = {
 
     }
 }
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 
 # Password validation
