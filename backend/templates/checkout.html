@@ -1,0 +1,48 @@
+{% extends 'storefront/base.html' %}
+
+{% block title %}Оформление заказа — KCell Online Demo{% endblock %}
+
+{% block content %}
+<section class="layout">
+  <article class="card">
+    <p class="eyebrow">Оформление заказа</p>
+    <h1>Данные клиента</h1>
+    <p>Форма демонстрирует поля, которые нужны по требованиям: имя клиента и номер телефона.</p>
+
+    <form method="post" action="/api/orders/">
+      {% csrf_token %}
+      <label>
+        Имя клиента
+        <input type="text" name="full_name" required>
+      </label>
+      <label>
+        Номер телефона
+        <input type="tel" name="phone_number" required>
+      </label>
+      <button class="button" type="submit">Сохранить заказ</button>
+    </form>
+  </article>
+
+  <aside class="side">
+    <section class="card">
+      <p class="eyebrow">Состав заказа</p>
+      {% if items %}
+        <div class="cart-list">
+          {% for line in items %}
+            <div>
+              <strong>{{ line.item.product.title }}</strong>
+              <p class="muted">{{ line.item.quantity }} × {{ line.item.product.price }} ₸</p>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="total">
+          <span>Итого</span>
+          <strong>{{ total }} ₸</strong>
+        </div>
+      {% else %}
+        <p class="muted">Передайте <code>items</code> и <code>total</code>, чтобы показать состав заказа.</p>
+      {% endif %}
+    </section>
+  </aside>
+</section>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'storefront/base.html' %}
+
+{% block title %}Каталог — KCell Online Demo{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="card">
+    <p class="eyebrow">template only</p>
+    <h1>Демонстрационный каталог товаров</h1>
+    <p>Шаблон рассчитан на контекст <code>products</code> из существующей модели товаров. Он не добавляет новые views, apps или urls в backend.</p>
+    <div class="actions">
+      <a class="button" href="/api/products/">Открыть API товаров</a>
+      <a class="button button--secondary" href="/admin/apps/products/product/">Управлять товарами</a>
+    </div>
+  </div>
+  <aside class="card">
+    <p class="eyebrow">backend</p>
+    <h2>Без изменения структуры</h2>
+    <p class="muted">Эта вёрстка использует только шаблоны и может быть подключена к любому существующему Django view.</p>
+  </aside>
+</section>
+
+<section class="card">
+  <p class="eyebrow">Каталог товаров</p>
+  <h2>Список товаров</h2>
+
+  {% if products %}
+    <div class="product-grid">
+      {% for product in products %}
+        <article class="product-card">
+          {% if product.image %}
+            <img src="{{ product.image.url }}" alt="{{ product.title }}">
+          {% else %}
+            <img src="https://placehold.co/640x420/e9f5ef/1c3c2d?text=KCell" alt="{{ product.title }}">
+          {% endif %}
+          <div class="product-card__body">
+            <span class="badge">{{ product.category.title }}</span>
+            <h3>{{ product.title }}</h3>
+            <p>{{ product.description }}</p>
+            <strong class="price">{{ product.price }} ₸</strong>
+            <div class="actions">
+              <a class="button button--secondary" href="/api/products/{{ product.id }}/">Подробнее в API</a>
+              <button class="button" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty">Передайте в шаблон список <code>products</code>, чтобы показать товары из базы.</div>
+  {% endif %}
+</section>
+{% endblock %}

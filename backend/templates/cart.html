@@ -1,0 +1,44 @@
+{% extends 'storefront/base.html' %}
+
+{% block title %}Корзина — KCell Online Demo{% endblock %}
+
+{% block content %}
+<section class="layout">
+  <article class="card">
+    <p class="eyebrow">Корзина</p>
+    <h1>Содержимое корзины</h1>
+
+    {% if items %}
+      <div class="cart-list">
+        {% for line in items %}
+          <article class="cart-line">
+            <div>
+              <h3>{{ line.item.product.title }}</h3>
+              <span class="muted">{{ line.item.product.price }} ₸ · сумма {{ line.subtotal }} ₸</span>
+            </div>
+            <label>
+              Кол-во
+              <input type="number" min="0" value="{{ line.item.quantity }}">
+            </label>
+            <button class="button button--secondary" type="button">Удалить</button>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty">Передайте в шаблон <code>items</code>, чтобы показать товары корзины из базы.</div>
+    {% endif %}
+  </article>
+
+  <aside class="side">
+    <section class="card">
+      <p class="eyebrow">Итого</p>
+      <div class="total">
+        <span>Сумма заказа</span>
+        <strong>{{ total|default:'0.00' }} ₸</strong>
+      </div>
+      <br>
+      <a class="button button--wide" href="/api/orders/">Оформить через API</a>
+    </section>
+  </aside>
+</section>
+{% endblock %}

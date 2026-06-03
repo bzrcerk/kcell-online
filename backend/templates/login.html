@@ -1,0 +1,21 @@
+{% extends 'storefront/base.html' %}
+
+{% block title %}Вход — KCell Online Demo{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="card">
+    <p class="eyebrow">Авторизация</p>
+    <h1>Вход в магазин</h1>
+    <p>Шаблон формы входа. Его можно использовать со стандартным Django LoginView или оставить как демонстрацию рядом с JWT endpoint.</p>
+    <a class="button button--secondary" href="/api/login/">JWT login endpoint</a>
+  </div>
+  <aside class="card">
+    <form method="post">
+      {% csrf_token %}
+      {% if form %}{{ form.as_div }}{% endif %}
+      <button class="button button--wide" type="submit">Войти</button>
+    </form>
+  </aside>
+</section>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'storefront/base.html' %}
+
+{% block title %}Карточка товара — KCell Online Demo{% endblock %}
+
+{% block content %}
+<section class="layout">
+  <article class="card">
+    {% if product.image %}
+      <img class="detail-image" src="{{ product.image.url }}" alt="{{ product.title }}">
+    {% else %}
+      <img class="detail-image" src="https://placehold.co/900x560/e9f5ef/1c3c2d?text=KCell" alt="{{ product.title|default:'Product' }}">
+    {% endif %}
+    <span class="badge">{{ product.category.title|default:'Категория' }}</span>
+    <h1>{{ product.title|default:'Название товара' }}</h1>
+    <p>{{ product.description|default:'Описание товара из базы данных.' }}</p>
+    <strong class="price">{{ product.price|default:'0.00' }} ₸</strong>
+  </article>
+
+  <aside class="side">
+    <section class="card">
+      <p class="eyebrow">Действие</p>
+      <h2>Добавить в корзину</h2>
+      <p class="muted">Кнопка оставлена для демонстрации интерфейса. Подключите её к существующему cart endpoint или view.</p>
+      <button class="button button--wide" type="button">Добавить в корзину</button>
+    </section>
+  </aside>
+</section>
+{% endblock %}
