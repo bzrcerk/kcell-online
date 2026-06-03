@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23a46d0b-7d7d-41fa-beed-69b783f08a9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/apps/products/storefront_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/apps/products/storefront_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/apps/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/apps/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/templates/storefront/signup.html" afterDir="false" />
-    </list>
+    <list default="true" id="23a46d0b-7d7d-41fa-beed-69b783f08a9f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,37 +80,37 @@
       <entry key="W1" value="78.89765934941943" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3EcFBcYyJExaZbubcWCIcEu6CGZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/Users/bzrcerk/.nvm/versions/node/v26.3.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/bzrcerk/Desktop/Work/Projects/kcell-online-store/frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/bzrcerk/.nvm/versions/node/v26.3.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bzrcerk/Desktop/Work/Projects/kcell-online-store/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
