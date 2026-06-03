@@ -7,7 +7,7 @@ from .serializers import CategorySerializer, ProductSerializer
 
 def catalog_page(request):
     products = Product.objects.select_related('category').all()
-    return render(request, 'templates/catalog.html', {'products': products})
+    return render(request, 'catalog.html', {'products': products})
 
 # Create your views here.
 class CategoryAPIView(viewsets.ModelViewSet):
