@@ -3,9 +3,12 @@ from rest_framework import serializers
 
 
 class RegisterSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
+    password_confirm = serializers.CharField(write_only=True)
+
     class Meta:
         model = User
-        fields = ('username', 'email', 'password')
+        fields = ('username', 'email', 'password', 'password_confirm')
 
     def validate(self, data):
         if data['password'] != data['password_confirm']:
@@ -31,6 +34,4 @@ class RegisterSerializer(serializers.ModelSerializer):
             first_name=validated_data.get('first_name', ''),
             last_name=validated_data.get('last_name', ''),
         )
-        user.is_active = False
-        user.save()
         return user

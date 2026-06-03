@@ -9,7 +9,7 @@ class Order(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     full_name = models.CharField(max_length=250)
     email = models.EmailField()
-    phone_number = models.IntegerField()
+    phone_number = models.CharField(max_length=32)
     address = models.CharField(max_length=250)
     total_price = models.DecimalField(max_digits=10, decimal_places=2)
     status = models.CharField(max_length=150)
